@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0f6cbd">
+  <title>Cotizador</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div id="app"></div>
+  <nav id="nav" hidden>
+    <a href="#/" data-r="inicio"><span>⌂</span>Inicio</a>
+    <a href="#/cotizaciones" data-r="cotizaciones"><span>☰</span>Cotizaciones</a>
+    <a href="#/nueva" data-r="nueva" class="nueva"><span>＋</span>Nueva</a>
+    <a href="#/catalogo" data-r="catalogo"><span>▦</span>Catálogo</a>
+    <a href="#/mas" data-r="mas"><span>⋯</span>Más</a>
+  </nav>
+  <div id="hoja" class="hoja"><div class="panel" id="hoja-panel"></div></div>
+  <div id="aviso" class="aviso"></div>
+  <script src="/calc.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

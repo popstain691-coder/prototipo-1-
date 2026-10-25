@@ -1,0 +1,20 @@
+{
+  "name": "cotizador",
+  "version": "1.0.0",
+  "description": "Cotizaciones con la marca del negocio y aprobación online con evidencia (prototipo 3)",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning src/server.js",
+    "dev": "node --no-warnings=ExperimentalWarning --watch src/server.js",
+    "test": "node --no-warnings=ExperimentalWarning --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "nodemailer": "^10.2.1",
+    "pdfkit": "^0.20.2"
+  }
+}
